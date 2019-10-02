@@ -332,13 +332,12 @@ nav.main-menu > ul > li:hover > ul.mega-menu{
 	-webkit-transform:translate(0, 0px);
 }
 nav.main-menu > ul > li > ul.mega-menu > li {
+	width: 17%;
 	float: left;
-	width: 16%;
 }
 nav.main-menu > ul > li > ul.mega-menu > li > ul.sub-menu {
-	display: block;
-	align-items: top;
-	min-height: 220px;
+	float: left;
+	margin-right: 20px;
 }
 nav.main-menu > ul > li > ul.mega-menu > li > ul.sub-menu li {
 	align-items: top;
@@ -567,3 +566,104 @@ ul.sidebar-menu {
 /* Sidebar Style End */
 
 
+/* Slider Area Style */
+.main-slider {
+	position: relative;
+}
+.main-slider .slick-arrow {
+	position: absolute;
+    top: 50%;
+    left: 0;
+    width: 40px;
+    height: 60px;
+    background-color: rgb(255,250,250, 0.4);
+    border: none;
+    font-size: 18px;
+    color: #000;
+	transform: translatey(-50%);
+	z-index: 999;
+}
+.main-slider .slick-arrow.slick-next {
+	left: auto;
+	right: 0;
+}
+.main-slider .slick-arrow:hover {
+	background-color: #fff;
+}
+
+.slick-dots {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+.slick-dots li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.slick-dots li button {
+	font-size: 0;
+	border: none;
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+/* Slider Area Style End */
+
+
+
+/* Cat Slider Style */
+.category-slider-active {
+	padding: 15px 48px;
+}
+.single-category-slide img {
+    display: inline-block;
+}
+
+.single-category-slide {
+    border: 2px solid pink;
+    border-radius: 50%;
+    padding: 25px 0;
+    overflow: hidden;
+    padding-bottom: 0;
+}
+
+.single-category-slide h4 {
+    font-size: 16px;
+    background-color: pink;
+    padding: 35px 0px;
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+.category-slider-active .slick-arrow {
+	position: absolute;
+    top: 50%;
+    left: 17px;
+    width: 40px;
+	height: 60px;
+	background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: #000;
+	transform: translatey(-50%);
+	z-index: 999;
+}
+.category-slider-active .slick-arrow.slick-next {
+	left: auto;
+	right: 17px;
+}
+
+
+
+/* Cat Slider Style End */
