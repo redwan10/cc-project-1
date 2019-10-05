@@ -76,7 +76,7 @@
           slidesToScroll: 1
         }
       },{
-        breakpoint: 1350,
+        breakpoint: 1200,
         settings: {
           arrows: true,
           dots: false,
@@ -84,7 +84,7 @@
           autoplay: false,
           fade: false,
           speed: 300,
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1
         }
       },{
@@ -96,7 +96,7 @@
           autoplay: false,
           fade: false,
           speed: 300,
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1
         }
       },{
@@ -108,7 +108,19 @@
           autoplay: false,
           fade: false,
           speed: 300,
-          slidesToShow: 3,
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },{
+        breakpoint: 576,
+        settings: {
+          arrows: false,
+          dots: false,
+          infinite: true,
+          autoplay: false,
+          fade: false,
+          speed: 300,
+          slidesToShow: 1,
           slidesToScroll: 1
         }
       }
@@ -116,6 +128,11 @@
       // settings: "unslick"
       // instead of a settings object
     ]
+  });
+
+
+  $(".sidebarBTn").click(function(){
+    $(".sidebar-wrapper").toggle('slow');
   });
 
 

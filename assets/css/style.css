@@ -569,6 +569,7 @@ ul.sidebar-menu {
 /* Slider Area Style */
 .main-slider {
 	position: relative;
+	z-index: 0;
 }
 .main-slider .slick-arrow {
 	position: absolute;
@@ -663,7 +664,8 @@ ul.sidebar-menu {
     font-size: 24px;
     color: #000;
 	transform: translatey(-50%);
-	z-index: 999;
+	z-index: 1 !important;
+	text-indent: -9;
 }
 .category-slider-active .slick-arrow.slick-next {
 	left: auto;

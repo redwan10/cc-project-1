@@ -52,6 +52,20 @@
   .filter-title h4::before {
     right: 4px;
   }
+  /* Sidebar */
+  .sidebar-wrapper {
+    position: fixed;
+    background-color: #fff;
+    width: 35%;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-left: 15px;
+    padding-top: 20px;
+    z-index: 1099;
+    display: none;
+  }
 }
 
 /* Extra small devices (portrait phones, less than 768px) */
@@ -78,6 +92,24 @@
   }
   .header-right-option {
     padding-top: 7px;
+  }
+  /* Sidebar */
+  .sidebar-wrapper {
+    position: fixed;
+    background-color: #fff;
+    width: 50%;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-left: 15px;
+    padding-top: 20px;
+    z-index: 1099;
+    display: none;
+  }
+  /* Slider */
+  .category-slider-active {
+    padding: 15px 0;
   }
 }
 
