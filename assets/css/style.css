@@ -624,6 +624,9 @@ ul.sidebar-menu {
 
 
 /* Cat Slider Style */
+.category-slider-area {
+	background-color: pink;
+}
 .category-slider-active {
 	padding: 15px 48px;
 }
@@ -632,7 +635,8 @@ ul.sidebar-menu {
 }
 
 .single-category-slide {
-    border: 2px solid pink;
+	border: 2px solid #C01A8C;
+	background-color: #fff;
     border-radius: 50%;
     padding: 25px 0;
     overflow: hidden;
@@ -641,10 +645,12 @@ ul.sidebar-menu {
 
 .single-category-slide h4 {
     font-size: 16px;
-    background-color: pink;
+    background-color: #C01A8C;
     padding: 35px 0px;
     margin-bottom: 0;
-    padding-top: 15px;
+	padding-top: 15px;
+	color: #fff;
+	font-weight: 600;
 }
 .category-slider-active .slick-arrow {
 	position: absolute;
@@ -663,7 +669,61 @@ ul.sidebar-menu {
 	left: auto;
 	right: 17px;
 }
-
-
-
 /* Cat Slider Style End */
+
+
+.div-link {
+	position: relative;
+}
+.div-link .link-overly {
+	position: absolute;
+	top: 0;
+	bottom:	0;
+	left: 0;
+	right: 0;
+}
+/* Cat Product Area */
+.product-category-area {
+	background-color: rgb(246, 249, 250);
+	padding-bottom: 60px;
+	padding-top: 20px;
+}
+
+.product-category-area .title h4 {
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+
+.single-product-cat {
+	border: 1px solid #ccc;
+	padding: 10px 5px;
+	background-color: #fff;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	margin-bottom: 20px;
+}
+.single-product-cat .cat-img {
+	width: 60px;
+	margin-right: 5px;
+}
+
+.single-product-cat .cat-img img {
+    width: 100%;
+}
+
+.single-product-cat .cat-name {
+	width: calc(97% - 60px);
+	text-align: center;
+}
+.single-product-cat .cat-name h5 {
+	font-weight: 600;
+	margin-bottom: 0;
+}
+.single-product-cat:hover .cat-name h5 {
+	color: #2497E3;
+}
+/* Cat Product Area End */
