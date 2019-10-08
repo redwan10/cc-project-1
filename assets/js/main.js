@@ -130,10 +130,23 @@
     ]
   });
 
-
+  // Sidebar Overly
   $(".sidebarBTn").click(function(){
     $(".sidebar-wrapper").toggle('slow');
   });
+
+
+
+  // Modal Open ON Page Load
+  $(window).on('load',function(){
+    var delayMs = 4000; // delay in milliseconds
+
+    setTimeout(function(){
+        $('#myModal').modal('show');
+    }, delayMs);
+  });  
+
+  
 
 
 })(jQuery);

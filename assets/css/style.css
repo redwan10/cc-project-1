@@ -119,6 +119,16 @@ a{
 /* Custom css start */
 
 
+/* Modal Box */
+.modal-body form .nice-select {
+    float: none;
+    width: 100%;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+}
+/* Modal Box End */
+
+
 
 
 /* Header Top */
